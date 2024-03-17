@@ -4,15 +4,9 @@
   "description": "This is a shopping list app build with Html, CSS, Firebase, and Javascript",
   "main": "script.js",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    
   },
   "keywords": [],
   "author": "Faith Adewuyi",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^5.1.6"
-  }
+  "license": "ISC"
 }
