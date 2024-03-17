@@ -47,6 +47,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  cursor: pointer;
 }
 
 ul li {
@@ -56,5 +57,6 @@ ul li {
   border-radius: 8px;
   flex-grow: 1;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-  text-align: center;  
+  text-align: center; 
+  cursor: pointer; 
 }
