@@ -39,10 +39,12 @@ onValue(shoppingListInDB, function(snapshot){
 
   for (let i = 0; i< changetoArray.length; i++){
     
+    appendToShoppingList(changetoArray[i])
+
   }
 })
 function clearInputFieldEl(){
-  inputEl.value = null 
+  inputEl.value = "" 
 }
 function appendToShoppingList(itemValue){
   shoppingListEl.innerHTML += `<li> ${itemValue}</li>`
