@@ -52,7 +52,7 @@ onValue(shoppingListInDB, function(snapshot){
   }
   }
   else{
-    shoppingListEl.innerHTML = "No items here yet"
+    shoppingListEl.innerHTML = "No more items here"
   }
 })
 
