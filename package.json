@@ -4,7 +4,10 @@
   "description": "This is a shopping list app build with Html, CSS, Firebase, and Javascript",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "Faith Adewuyi",
